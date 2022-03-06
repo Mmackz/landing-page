@@ -1,3 +1,65 @@
 body {
    margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #f9faf8;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.25rem 1rem;
+   position: relative;
+}
+
+img {
+   width: 200px;
+}
+
+.top-section {
+   background: #1f2937;
+   width: 100%;
+}
+
+.section-inner {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.logo {
+   font-size: 2rem;
+   font-weight: bold;
+   letter-spacing: -1px;
+}
+
+.menu-icon {
+   width: 40px;
+}
+
+.menu-icon > div {
+   height: 4px;
+   background: #f9faf8;
+   margin: 0.25rem;
+   border-radius: 4px;
+}
+
+.links {
+   display: none;
+   flex-direction: column;
+   list-style: none;
+   padding: 0.5rem 1rem;
+   position: absolute;
+   overflow: hidden;
+   right: 22px;
+   top: 25px;
+   background: #f9faf8;
+   color: #1f2937;
+   max-height: 0;
+   transition: all 750ms linear;
+}
+
+.links > li {
+   padding: 0.45rem;
 }
