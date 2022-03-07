@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
 body {
    margin: 0;
    display: flex;
    flex-direction: column;
    align-items: center;
    color: #f9faf8;
+   font-family: 'Lato', sans-serif;
+}
+
+h1 {
+   margin: 0.25rem 0 1rem;
+   font-size: 2.5rem;
+   line-height: 2.5rem;
 }
 
 header {
@@ -14,9 +27,20 @@ header {
    position: relative;
 }
 
-img {
-   width: 200px;
+main {
+   display: flex;
+   flex-direction: column-reverse;
 }
+
+img {
+   max-height: 300px;
+   max-width: 600px;
+   width: 100%;
+   object-fit: cover;
+   margin: 0 auto;
+}
+
+/* top section (header and hero) */
 
 .top-section {
    background: #1f2937;
@@ -68,4 +92,24 @@ img {
 .links > li:hover {
    background-color: #ececec;
    transform: scale(1.02);
+}
+
+.main-text {
+   padding: 1rem 1.5rem;
+}
+
+.main-text > p {
+   margin:  0.5rem 0;
+}
+
+.main-text > button {
+   background: #3882f6;
+   color: #f9faf8;
+   border: none;
+   padding: 0.5rem 1.75rem;
+   border-radius: 8px;
+   font-weight: bold;
+   cursor: pointer;
+   user-select: none;
+   margin: 0.75rem 0;
 }
