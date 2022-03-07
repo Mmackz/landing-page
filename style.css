@@ -19,6 +19,12 @@ h1 {
    line-height: 2.5rem;
 }
 
+h2 {
+   font-size: 1.8rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
 header {
    display: flex;
    align-items: center;
@@ -56,6 +62,7 @@ img {
    font-size: 2rem;
    font-weight: bold;
    letter-spacing: -1px;
+   margin: 0.4rem 0;
 }
 
 .menu-icon {
@@ -96,6 +103,7 @@ img {
 
 .main-text {
    padding: 1rem 1.5rem;
+   margin: 0.5rem 0;
 }
 
 .main-text > p {
@@ -111,5 +119,37 @@ img {
    font-weight: bold;
    cursor: pointer;
    user-select: none;
-   margin: 0.75rem 0;
+   margin: 0.75rem 0 0.25rem;
+}
+
+/* information section */
+.information {
+   color: #1f2937;
+   text-align: center;
+}
+
+.box {
+   width: 300px;
+}
+
+.box img {
+   height: 280px;
+   width: 280px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.img-outer {
+   border: 6px #3882f6 solid;
+   border-radius: 16px;
+   width: 300px;
+   height: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sub-text {
+   padding: 0.85rem;
+   font-size: 1.05rem;
 }
