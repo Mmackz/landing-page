@@ -103,7 +103,7 @@ img {
 }
 
 .main-text {
-   padding: 1rem 1.5rem;
+   padding: 1rem 1rem;
    margin: 0.5rem auto;
    max-width: 640px;
 }
@@ -289,11 +289,13 @@ img {
    main {
       flex-direction: row;
       align-items: center;
-      padding: 0rem 1.75rem 1rem 0;
+      padding: 2rem 1.75rem 4rem 0rem;
    }
 
-   img {
+   main img {
       height: 260px;
+      margin-left: 1.5rem;
+      border-radius: 6px;
    }
 
    .boxes {
