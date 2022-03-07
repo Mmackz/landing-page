@@ -112,6 +112,10 @@ img {
 }
 
 .main-text > button {
+   margin: 0.75rem 0 0.25rem;
+}
+
+.button {
    background: #3882f6;
    color: #f9faf8;
    border: none;
@@ -120,7 +124,6 @@ img {
    font-weight: bold;
    cursor: pointer;
    user-select: none;
-   margin: 0.75rem 0 0.25rem;
 }
 
 /* information section */
@@ -184,4 +187,28 @@ img {
    font-style: normal;
    font-weight: bold;
    padding: 0.5rem 1.25rem;
+}
+
+/* CTA section */
+.cta {
+   max-width: 1000px;
+   margin: 2rem 0.5rem;
+   padding: 2rem 4rem;
+   background: #3882f6;
+   border-radius: 10px;
+}
+
+.cta-title {
+   font-size: 1.5rem;
+   margin: 0 0 0.5rem;
+}
+
+.cta-subtext {
+   margin: 0;
+}
+
+.cta-button {
+   display: block;
+   border: 2px solid #f9faf8;
+   margin-left: auto;
 }
