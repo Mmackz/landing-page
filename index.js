@@ -19,16 +19,14 @@ links.addEventListener("click", (event) => {
 });
 
 window.addEventListener("resize", () => {
-   if (window.innerWidth > 700) {
-      if (links.style.display === "none") {
-         links.style = "";
-      }
+   if (window.innerWidth > 740) {
+      links.style = ""
    }
 });
 
-document.body.addEventListener("click", (event) => {
+document.body.addEventListener("click", () => {
    const style = window.getComputedStyle(links);
-   if (window.innerWidth <= 700 && style.display === "flex") {
+   if (window.innerWidth <= 740 && style.display === "flex") {
       closeDropdown();
    }
 });
