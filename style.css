@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
 
 * {
    box-sizing: border-box;
@@ -127,6 +127,7 @@ img {
 .information {
    color: #1f2937;
    text-align: center;
+   margin-bottom: 1rem;
 }
 
 .box {
@@ -153,4 +154,34 @@ img {
 .sub-text {
    padding: 0.85rem;
    font-size: 1.05rem;
+}
+
+/* quote section */
+.quote {
+   background: #e5e7eb;
+   color: #1f2937;
+   width: 100%;
+}
+
+.blockquote {
+   max-width: 720px;
+   margin: 0 auto;
+   padding: 1.5rem;
+}
+
+.quote-text {
+   font-weight: 300;
+   font-style: italic;
+   font-size: 1.75rem;
+   padding: 0 1rem;
+   margin: 0;
+   margin-top: 0.5rem;
+}
+
+.cite {
+   display: block;
+   text-align: right;
+   font-style: normal;
+   font-weight: bold;
+   padding: 0.5rem 1.25rem;
 }
