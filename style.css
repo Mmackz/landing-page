@@ -55,7 +55,7 @@ img {
 }
 
 .section-inner {
-   max-width: 1000px;
+   max-width: 1080px;
    margin: 0 auto;
 }
 
@@ -64,6 +64,7 @@ img {
    font-weight: bold;
    letter-spacing: -1px;
    margin: 0.4rem 0;
+   user-select: none;
 }
 
 .menu-icon {
@@ -91,6 +92,8 @@ img {
    color: #1f2937;
    max-height: 0;
    transition: all 750ms linear;
+   cursor: pointer;
+   user-select: none;
 }
 
 .links > li {
@@ -165,6 +168,7 @@ img {
    background: #e5e7eb;
    color: #1f2937;
    width: 100%;
+   padding: 3rem;
 }
 
 .blockquote {
@@ -192,7 +196,7 @@ img {
 
 /* CTA section */
 .cta {
-   max-width: 1000px;
+   max-width: 1080px;
    margin: 2rem 0.5rem;
    padding: 2rem 4rem;
    background: #3882f6;
@@ -212,6 +216,10 @@ img {
    display: block;
    border: 2px solid #f9faf8;
    margin-left: auto;
+}
+
+.cta-button:hover {
+   background: #548eeb;
 }
 
 /* footer */
@@ -276,6 +284,11 @@ img {
       display: none;
    }
 
+   .links > li:hover {
+      background-color: inherit;
+      color: #b9b8b8;
+   }
+
    .blockquote {
       max-width: 640px;
    }
@@ -328,5 +341,72 @@ img {
 
    .cta {
       padding: 2rem 6rem;
+   }
+}
+
+@media (min-width: 1080px) {
+   html {
+      font-size: 20px;
+   }
+
+   .boxes {
+      width: 1080px;
+      justify-content: space-between;
+   }
+
+   .box {
+      margin: 0;
+      width: 240px;
+   }
+   
+   .box img {
+      height: 220px;
+      width: 220px;
+   }
+   
+   .img-outer {
+      width: 240px;
+      height: 240px;
+   }
+
+   .information {
+      padding: 3rem;
+   }
+
+   .information h2 {
+      margin-bottom: 3rem;
+   }
+
+   .blockquote {
+      max-width: 800px;
+   }
+
+   .button {
+      font-size: 1rem;
+   }
+
+   .quote-text {
+      font-size: 2rem;
+   }
+
+   .cite {
+      font-size: 1.1rem;
+   }
+
+   .cta {
+      margin: 5rem;
+   }
+
+   .cta-title {
+      font-size: 1.6rem;
+   }
+
+   .cta-subtext {
+      font-size: 1.1rem;
+   }
+
+   .cta-button {
+      font-size: 1.25rem;
+      border: 3px solid #f9faf8;
    }
 }
